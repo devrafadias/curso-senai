@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 03</title>
+
+    <script>
+
+        var porcentagemGarcom = 13;
+
+        var valorTotalAlmoco = prompt("Digite o valor total do almoço (R$): ")
+
+        console.log("Calculando os " + porcentagemGarcom + "% do garçom. Processando...")
+
+        var taxaServico = valorTotalAlmoco * porcentagemGarcom/100
+
+        console.log("Calculando total a pagar. Processando...")
+
+        var totalPagarAlmoco = Number(valorTotalAlmoco) + Number(taxaServico);
+
+        alert("Taxa de serviço (13%): " + Number(taxaServico) + "\n Valor total a pagar: " + Number(totalPagarAlmoco))
+
+    </script>
+</head>
+<body>
+    <h1>Atividade 03</h1>
+</body>
+</html>
